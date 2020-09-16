@@ -16,10 +16,17 @@ public class EnvController {
     private final String cfInstanceAddress;
 
     public EnvController(
+<<<<<<< HEAD
         @Value("${port:NOT SET}") String port,
         @Value("${memory.limit:NOT SET}") String memoryLimit,
         @Value("${cf.instance.index:NOT SET}") String cfInstanceIndex,
         @Value("${cf.instance.addr:NOT SET}") String cfInstanceAddress
+=======
+            @Value("${port:NOT SET}") String port,
+            @Value("${memory.limit:NOT SET}") String memoryLimit,
+            @Value("${cf.instance.index:NOT SET}") String cfInstanceIndex,
+            @Value("${cf.instance.addr:NOT SET}") String cfInstanceAddress
+>>>>>>> 630aa01daf06b07fc779587d3747b283a72da17c
     ) {
         this.port = port;
         this.memoryLimit = memoryLimit;
@@ -38,4 +45,8 @@ public class EnvController {
 
         return env;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 630aa01daf06b07fc779587d3747b283a72da17c

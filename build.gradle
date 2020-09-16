@@ -26,3 +26,7 @@ bootRun.environment([
 test.environment([
         "WELCOME_MESSAGE": "Hello from test",
 ])
+<<<<<<< HEAD
+=======
+
+>>>>>>> 630aa01daf06b07fc779587d3747b283a72da17c
